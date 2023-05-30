@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Regression_test_run" class="navigator-link">
+              <span class="suite-name border-passed">Regression test run</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Regression_test_run" class="navigator-link ">
+                    <span>C:\Users\Home\rb_dr\dz-12\src\test\resources\regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Regression_test_run" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Regression_test_run" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Regression_test_run" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Regression_test_run" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Regression_test_run" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Regression_test_run" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_test_run" class="hide-methods passed suite-Regression_test_run"> (hide)</a> <!-- hide-methods passed suite-Regression_test_run -->
+                      <a href="#" panel-name="suite-Regression_test_run" class="show-methods passed suite-Regression_test_run"> (show)</a> <!-- show-methods passed suite-Regression_test_run -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_test_run">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfDeregisterPartnershipFalse(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5e0e82ae)">testIfDeregisterPartnershipFalse(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5e0e82ae)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfDeregisterPartnershipFalse(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@3270d194)">testIfDeregisterPartnershipFalse(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@3270d194)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfDeregisterPartnershipTrue(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@411f53a0)">testIfDeregisterPartnershipTrue(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@411f53a0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfDeregisterPartnershipTrue(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@51399530)">testIfDeregisterPartnershipTrue(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@51399530)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfManHasBadge(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@36fc695d)">testIfManHasBadge(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@36fc695d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfManHasBadge(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@13c9d689)">testIfManHasBadge(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@13c9d689)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfManHasNotBadge(Helena, Sunny, Sunny, 41, Walking, null)">testIfManHasNotBadge(Helena, Sunny, Sunny, 41, Walking, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfManHasNotBadge(Vasiliy, Read, Read, 32, Jumping, null)">testIfManHasNotBadge(Vasiliy, Read, Read, 32, Jumping, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfManNotRetired(Vasiliy, Read, Read, 32, Jumping, null)">testIfManNotRetired(Vasiliy, Read, Read, 32, Jumping, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfManNotRetired(Helena, Sunny, Sunny, 41, Walking, null)">testIfManNotRetired(Helena, Sunny, Sunny, 41, Walking, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfManRetired(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@1d296da)">testIfManRetired(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@1d296da)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfManRetired(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@5b7a5baa)">testIfManRetired(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@5b7a5baa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfNotRegisterPartnership(Helena, Sunny, Sunny, 41, Walking, null)">testIfNotRegisterPartnership(Helena, Sunny, Sunny, 41, Walking, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfNotRegisterPartnership(Hanna, Sweet, Sweet, 41, Jumping, null)">testIfNotRegisterPartnership(Hanna, Sweet, Sweet, 41, Jumping, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfRegisterPartnership(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@3c46e67a)">testIfRegisterPartnership(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@3c46e67a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfRegisterPartnership(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@408d971b)">testIfRegisterPartnership(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@408d971b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfWomanHasBadge(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@22555ebf)">testIfWomanHasBadge(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@22555ebf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfWomanHasBadge(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@206a70ef)">testIfWomanHasBadge(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@206a70ef)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfWomanHasNotBadge(Hanna, Sweet, Sweet, 41, Jumping, null)">testIfWomanHasNotBadge(Hanna, Sweet, Sweet, 41, Jumping, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfWomanHasNotBadge(Helena, Sunny, Sunny, 41, Walking, null)">testIfWomanHasNotBadge(Helena, Sunny, Sunny, 41, Walking, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfWomanNotRetired(Hanna, Sweet, Sweet, 41, Jumping, null)">testIfWomanNotRetired(Hanna, Sweet, Sweet, 41, Jumping, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfWomanNotRetired(Helena, Sunny, Sunny, 41, Walking, null)">testIfWomanNotRetired(Helena, Sunny, Sunny, 41, Walking, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfWomanRetired(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@38425407)">testIfWomanRetired(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@38425407)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testIfWomanRetired(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@702657cc)">testIfWomanRetired(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@702657cc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testManAdding(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@22ff4249)">testManAdding(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@22ff4249)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testManAdding(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@40a4337a)">testManAdding(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@40a4337a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testWomanAdding(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@4c402120)">testWomanAdding(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@4c402120)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_test_run" title="persondetails.TestWithParameters" class="method navigator-link" hash-for-method="testWomanAdding(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5b12b668)">testWomanAdding(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5b12b668)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_test_run -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_test_run" class="panel Regression_test_run">
+          <div class="suite-Regression_test_run-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">persondetails.TestWithParameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfDeregisterPartnershipFalse(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5e0e82ae)">
+                  </a> <!-- testIfDeregisterPartnershipFalse(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5e0e82ae) -->
+                  <span class="method-name">testIfDeregisterPartnershipFalse</span>
+                  <span class="parameters">(Helena,Sunny,Cloudy,61,Running,com.rb_dr.person.Man@5e0e82ae)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfDeregisterPartnershipFalse(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@3270d194)">
+                  </a> <!-- testIfDeregisterPartnershipFalse(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@3270d194) -->
+                  <span class="method-name">testIfDeregisterPartnershipFalse</span>
+                  <span class="parameters">(Hanna,Light,Dark,65,Running,com.rb_dr.person.Man@3270d194)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfDeregisterPartnershipTrue(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@411f53a0)">
+                  </a> <!-- testIfDeregisterPartnershipTrue(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@411f53a0) -->
+                  <span class="method-name">testIfDeregisterPartnershipTrue</span>
+                  <span class="parameters">(Helena,Sunny,Cloudy,61,Running,com.rb_dr.person.Man@411f53a0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfDeregisterPartnershipTrue(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@51399530)">
+                  </a> <!-- testIfDeregisterPartnershipTrue(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@51399530) -->
+                  <span class="method-name">testIfDeregisterPartnershipTrue</span>
+                  <span class="parameters">(Hanna,Light,Dark,65,Running,com.rb_dr.person.Man@51399530)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfManHasBadge(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@36fc695d)">
+                  </a> <!-- testIfManHasBadge(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@36fc695d) -->
+                  <span class="method-name">testIfManHasBadge</span>
+                  <span class="parameters">(Kent,Night,Night,66,Fishing,com.rb_dr.person.Woman@36fc695d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfManHasBadge(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@13c9d689)">
+                  </a> <!-- testIfManHasBadge(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@13c9d689) -->
+                  <span class="method-name">testIfManHasBadge</span>
+                  <span class="parameters">(Sam,Day,Day,70,Fishing,com.rb_dr.person.Woman@13c9d689)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfManHasNotBadge(Helena, Sunny, Sunny, 41, Walking, null)">
+                  </a> <!-- testIfManHasNotBadge(Helena, Sunny, Sunny, 41, Walking, null) -->
+                  <span class="method-name">testIfManHasNotBadge</span>
+                  <span class="parameters">(Helena,Sunny,Sunny,41,Walking,null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfManHasNotBadge(Vasiliy, Read, Read, 32, Jumping, null)">
+                  </a> <!-- testIfManHasNotBadge(Vasiliy, Read, Read, 32, Jumping, null) -->
+                  <span class="method-name">testIfManHasNotBadge</span>
+                  <span class="parameters">(Vasiliy,Read,Read,32,Jumping,null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfManNotRetired(Vasiliy, Read, Read, 32, Jumping, null)">
+                  </a> <!-- testIfManNotRetired(Vasiliy, Read, Read, 32, Jumping, null) -->
+                  <span class="method-name">testIfManNotRetired</span>
+                  <span class="parameters">(Vasiliy,Read,Read,32,Jumping,null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfManNotRetired(Helena, Sunny, Sunny, 41, Walking, null)">
+                  </a> <!-- testIfManNotRetired(Helena, Sunny, Sunny, 41, Walking, null) -->
+                  <span class="method-name">testIfManNotRetired</span>
+                  <span class="parameters">(Helena,Sunny,Sunny,41,Walking,null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfManRetired(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@1d296da)">
+                  </a> <!-- testIfManRetired(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@1d296da) -->
+                  <span class="method-name">testIfManRetired</span>
+                  <span class="parameters">(Sam,Day,Day,70,Fishing,com.rb_dr.person.Woman@1d296da)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfManRetired(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@5b7a5baa)">
+                  </a> <!-- testIfManRetired(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@5b7a5baa) -->
+                  <span class="method-name">testIfManRetired</span>
+                  <span class="parameters">(Kent,Night,Night,66,Fishing,com.rb_dr.person.Woman@5b7a5baa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfNotRegisterPartnership(Helena, Sunny, Sunny, 41, Walking, null)">
+                  </a> <!-- testIfNotRegisterPartnership(Helena, Sunny, Sunny, 41, Walking, null) -->
+                  <span class="method-name">testIfNotRegisterPartnership</span>
+                  <span class="parameters">(Helena,Sunny,Sunny,41,Walking,null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfNotRegisterPartnership(Hanna, Sweet, Sweet, 41, Jumping, null)">
+                  </a> <!-- testIfNotRegisterPartnership(Hanna, Sweet, Sweet, 41, Jumping, null) -->
+                  <span class="method-name">testIfNotRegisterPartnership</span>
+                  <span class="parameters">(Hanna,Sweet,Sweet,41,Jumping,null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfRegisterPartnership(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@3c46e67a)">
+                  </a> <!-- testIfRegisterPartnership(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@3c46e67a) -->
+                  <span class="method-name">testIfRegisterPartnership</span>
+                  <span class="parameters">(Helena,Sunny,Cloudy,61,Running,com.rb_dr.person.Man@3c46e67a)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfRegisterPartnership(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@408d971b)">
+                  </a> <!-- testIfRegisterPartnership(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@408d971b) -->
+                  <span class="method-name">testIfRegisterPartnership</span>
+                  <span class="parameters">(Hanna,Light,Dark,65,Running,com.rb_dr.person.Man@408d971b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfWomanHasBadge(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@22555ebf)">
+                  </a> <!-- testIfWomanHasBadge(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@22555ebf) -->
+                  <span class="method-name">testIfWomanHasBadge</span>
+                  <span class="parameters">(Helena,Sunny,Cloudy,61,Running,com.rb_dr.person.Man@22555ebf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfWomanHasBadge(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@206a70ef)">
+                  </a> <!-- testIfWomanHasBadge(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@206a70ef) -->
+                  <span class="method-name">testIfWomanHasBadge</span>
+                  <span class="parameters">(Hanna,Light,Dark,65,Running,com.rb_dr.person.Man@206a70ef)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfWomanHasNotBadge(Hanna, Sweet, Sweet, 41, Jumping, null)">
+                  </a> <!-- testIfWomanHasNotBadge(Hanna, Sweet, Sweet, 41, Jumping, null) -->
+                  <span class="method-name">testIfWomanHasNotBadge</span>
+                  <span class="parameters">(Hanna,Sweet,Sweet,41,Jumping,null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfWomanHasNotBadge(Helena, Sunny, Sunny, 41, Walking, null)">
+                  </a> <!-- testIfWomanHasNotBadge(Helena, Sunny, Sunny, 41, Walking, null) -->
+                  <span class="method-name">testIfWomanHasNotBadge</span>
+                  <span class="parameters">(Helena,Sunny,Sunny,41,Walking,null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfWomanNotRetired(Hanna, Sweet, Sweet, 41, Jumping, null)">
+                  </a> <!-- testIfWomanNotRetired(Hanna, Sweet, Sweet, 41, Jumping, null) -->
+                  <span class="method-name">testIfWomanNotRetired</span>
+                  <span class="parameters">(Hanna,Sweet,Sweet,41,Jumping,null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfWomanNotRetired(Helena, Sunny, Sunny, 41, Walking, null)">
+                  </a> <!-- testIfWomanNotRetired(Helena, Sunny, Sunny, 41, Walking, null) -->
+                  <span class="method-name">testIfWomanNotRetired</span>
+                  <span class="parameters">(Helena,Sunny,Sunny,41,Walking,null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfWomanRetired(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@38425407)">
+                  </a> <!-- testIfWomanRetired(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@38425407) -->
+                  <span class="method-name">testIfWomanRetired</span>
+                  <span class="parameters">(Hanna,Light,Dark,65,Running,com.rb_dr.person.Man@38425407)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfWomanRetired(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@702657cc)">
+                  </a> <!-- testIfWomanRetired(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@702657cc) -->
+                  <span class="method-name">testIfWomanRetired</span>
+                  <span class="parameters">(Helena,Sunny,Cloudy,61,Running,com.rb_dr.person.Man@702657cc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testManAdding(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@22ff4249)">
+                  </a> <!-- testManAdding(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@22ff4249) -->
+                  <span class="method-name">testManAdding</span>
+                  <span class="parameters">(Sam,Day,Day,70,Fishing,com.rb_dr.person.Woman@22ff4249)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testManAdding(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@40a4337a)">
+                  </a> <!-- testManAdding(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@40a4337a) -->
+                  <span class="method-name">testManAdding</span>
+                  <span class="parameters">(Kent,Night,Night,66,Fishing,com.rb_dr.person.Woman@40a4337a)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWomanAdding(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@4c402120)">
+                  </a> <!-- testWomanAdding(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@4c402120) -->
+                  <span class="method-name">testWomanAdding</span>
+                  <span class="parameters">(Hanna,Light,Dark,65,Running,com.rb_dr.person.Man@4c402120)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWomanAdding(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5b12b668)">
+                  </a> <!-- testWomanAdding(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5b12b668) -->
+                  <span class="method-name">testWomanAdding</span>
+                  <span class="parameters">(Helena,Sunny,Cloudy,61,Running,com.rb_dr.person.Man@5b12b668)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_test_run-class-passed -->
+        </div> <!-- panel Regression_test_run -->
+        <div panel-name="test-xml-Regression_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Home\rb_dr\dz-12\src\test\resources\regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Regression test run&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing with parameters&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;persondetails.TestWithParameters&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing with parameters --&gt;
+&lt;/suite&gt; &lt;!-- Regression test run --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression test run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing with parameters (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression test run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression test run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_test_run');
+function tableData_Regression_test_run() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testIfManHasBadge')
+data.setCell(0, 2, 'persondetails.TestWithParameters')
+data.setCell(0, 3, 19);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testIfDeregisterPartnershipFalse')
+data.setCell(1, 2, 'persondetails.TestWithParameters')
+data.setCell(1, 3, 19);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testIfDeregisterPartnershipFalse')
+data.setCell(2, 2, 'persondetails.TestWithParameters')
+data.setCell(2, 3, 13);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testIfDeregisterPartnershipTrue')
+data.setCell(3, 2, 'persondetails.TestWithParameters')
+data.setCell(3, 3, 13);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testIfManNotRetired')
+data.setCell(4, 2, 'persondetails.TestWithParameters')
+data.setCell(4, 3, 11);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testIfWomanHasNotBadge')
+data.setCell(5, 2, 'persondetails.TestWithParameters')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testIfWomanHasBadge')
+data.setCell(6, 2, 'persondetails.TestWithParameters')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testManAdding')
+data.setCell(7, 2, 'persondetails.TestWithParameters')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testIfRegisterPartnership')
+data.setCell(8, 2, 'persondetails.TestWithParameters')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testIfManRetired')
+data.setCell(9, 2, 'persondetails.TestWithParameters')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testIfManHasNotBadge')
+data.setCell(10, 2, 'persondetails.TestWithParameters')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testIfManRetired')
+data.setCell(11, 2, 'persondetails.TestWithParameters')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testIfManHasNotBadge')
+data.setCell(12, 2, 'persondetails.TestWithParameters')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testIfWomanHasBadge')
+data.setCell(13, 2, 'persondetails.TestWithParameters')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testManAdding')
+data.setCell(14, 2, 'persondetails.TestWithParameters')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testIfNotRegisterPartnership')
+data.setCell(15, 2, 'persondetails.TestWithParameters')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testIfNotRegisterPartnership')
+data.setCell(16, 2, 'persondetails.TestWithParameters')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testIfWomanNotRetired')
+data.setCell(17, 2, 'persondetails.TestWithParameters')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testIfManNotRetired')
+data.setCell(18, 2, 'persondetails.TestWithParameters')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testIfWomanRetired')
+data.setCell(19, 2, 'persondetails.TestWithParameters')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testWomanAdding')
+data.setCell(20, 2, 'persondetails.TestWithParameters')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testIfManHasBadge')
+data.setCell(21, 2, 'persondetails.TestWithParameters')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testIfRegisterPartnership')
+data.setCell(22, 2, 'persondetails.TestWithParameters')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testWomanAdding')
+data.setCell(23, 2, 'persondetails.TestWithParameters')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testIfWomanHasNotBadge')
+data.setCell(24, 2, 'persondetails.TestWithParameters')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testIfWomanRetired')
+data.setCell(25, 2, 'persondetails.TestWithParameters')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testIfWomanNotRetired')
+data.setCell(26, 2, 'persondetails.TestWithParameters')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testIfDeregisterPartnershipTrue')
+data.setCell(27, 2, 'persondetails.TestWithParameters')
+data.setCell(27, 3, 1);
+window.suiteTableData['Regression_test_run']= { tableData: data, tableDiv: 'times-div-Regression_test_run'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 108 ms</span>
+              <div id="times-div-Regression_test_run">
+              </div> <!-- times-div-Regression_test_run -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression test run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">persondetails.TestWithParameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testIfDeregisterPartnershipFalse(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@3270d194)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfDeregisterPartnershipFalse(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5e0e82ae)</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfDeregisterPartnershipTrue(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@51399530)</span>
+                <span class="method-start">107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfDeregisterPartnershipTrue(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@411f53a0)</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfManHasBadge(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@36fc695d)</span>
+                <span class="method-start">156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfManHasBadge(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@13c9d689)</span>
+                <span class="method-start">179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfManHasNotBadge(Vasiliy, Read, Read, 32, Jumping, null)</span>
+                <span class="method-start">186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfManHasNotBadge(Helena, Sunny, Sunny, 41, Walking, null)</span>
+                <span class="method-start">191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfManNotRetired(Vasiliy, Read, Read, 32, Jumping, null)</span>
+                <span class="method-start">197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfManNotRetired(Helena, Sunny, Sunny, 41, Walking, null)</span>
+                <span class="method-start">201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfManRetired(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@5b7a5baa)</span>
+                <span class="method-start">217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfManRetired(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@1d296da)</span>
+                <span class="method-start">222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfNotRegisterPartnership(Hanna, Sweet, Sweet, 41, Jumping, null)</span>
+                <span class="method-start">230 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfNotRegisterPartnership(Helena, Sunny, Sunny, 41, Walking, null)</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfRegisterPartnership(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@408d971b)</span>
+                <span class="method-start">239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfRegisterPartnership(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@3c46e67a)</span>
+                <span class="method-start">241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfWomanHasBadge(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@206a70ef)</span>
+                <span class="method-start">245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfWomanHasBadge(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@22555ebf)</span>
+                <span class="method-start">249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfWomanHasNotBadge(Hanna, Sweet, Sweet, 41, Jumping, null)</span>
+                <span class="method-start">252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfWomanHasNotBadge(Helena, Sunny, Sunny, 41, Walking, null)</span>
+                <span class="method-start">258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfWomanNotRetired(Hanna, Sweet, Sweet, 41, Jumping, null)</span>
+                <span class="method-start">263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfWomanNotRetired(Helena, Sunny, Sunny, 41, Walking, null)</span>
+                <span class="method-start">270 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfWomanRetired(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@38425407)</span>
+                <span class="method-start">276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfWomanRetired(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@702657cc)</span>
+                <span class="method-start">279 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testManAdding(Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@40a4337a)</span>
+                <span class="method-start">285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testManAdding(Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@22ff4249)</span>
+                <span class="method-start">291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWomanAdding(Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@4c402120)</span>
+                <span class="method-start">297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWomanAdding(Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5b12b668)</span>
+                <span class="method-start">300 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

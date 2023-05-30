@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>TestNG:  Testing with parameters</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testing with parameters</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 30 16:10:11 EEST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (498 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfDeregisterPartnershipFalse()'><b>testIfDeregisterPartnershipFalse</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5e0e82ae</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfManHasBadge()'><b>testIfManHasBadge</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@36fc695d</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testManAdding()'><b>testManAdding</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@22ff4249</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfRegisterPartnership()'><b>testIfRegisterPartnership</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@3c46e67a</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfWomanHasBadge()'><b>testIfWomanHasBadge</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@22555ebf</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfDeregisterPartnershipFalse()'><b>testIfDeregisterPartnershipFalse</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@3270d194</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testManAdding()'><b>testManAdding</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@40a4337a</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfNotRegisterPartnership()'><b>testIfNotRegisterPartnership</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Sunny, 41, Walking, null</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfManRetired()'><b>testIfManRetired</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@1d296da</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfNotRegisterPartnership()'><b>testIfNotRegisterPartnership</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Hanna, Sweet, Sweet, 41, Jumping, null</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfWomanNotRetired()'><b>testIfWomanNotRetired</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Hanna, Sweet, Sweet, 41, Jumping, null</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfManNotRetired()'><b>testIfManNotRetired</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Vasiliy, Read, Read, 32, Jumping, null</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfWomanRetired()'><b>testIfWomanRetired</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@38425407</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfDeregisterPartnershipTrue()'><b>testIfDeregisterPartnershipTrue</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@411f53a0</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testWomanAdding()'><b>testWomanAdding</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@4c402120</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfManHasBadge()'><b>testIfManHasBadge</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Sam, Day, Day, 70, Fishing, com.rb_dr.person.Woman@13c9d689</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfRegisterPartnership()'><b>testIfRegisterPartnership</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@408d971b</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfWomanHasNotBadge()'><b>testIfWomanHasNotBadge</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Hanna, Sweet, Sweet, 41, Jumping, null</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testWomanAdding()'><b>testWomanAdding</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@5b12b668</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfWomanHasNotBadge()'><b>testIfWomanHasNotBadge</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Sunny, 41, Walking, null</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfWomanRetired()'><b>testIfWomanRetired</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Cloudy, 61, Running, com.rb_dr.person.Man@702657cc</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfWomanNotRetired()'><b>testIfWomanNotRetired</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Sunny, 41, Walking, null</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfManHasNotBadge()'><b>testIfManHasNotBadge</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Sunny, 41, Walking, null</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfManRetired()'><b>testIfManRetired</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Kent, Night, Night, 66, Fishing, com.rb_dr.person.Woman@5b7a5baa</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfManNotRetired()'><b>testIfManNotRetired</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Helena, Sunny, Sunny, 41, Walking, null</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfDeregisterPartnershipTrue()'><b>testIfDeregisterPartnershipTrue</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@51399530</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfWomanHasBadge()'><b>testIfWomanHasBadge</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Hanna, Light, Dark, 65, Running, com.rb_dr.person.Man@206a70ef</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+<tr>
+<td title='persondetails.TestWithParameters.testIfManHasNotBadge()'><b>testIfManHasNotBadge</b><br>Test class: persondetails.TestWithParameters<br>Parameters: Vasiliy, Read, Read, 32, Jumping, null</td>
+<td></td>
+<td>0</td>
+<td>persondetails.TestWithParameters@78e117e3</td></tr>
+</table><p>
+</body>
+</html>
